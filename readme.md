@@ -94,7 +94,7 @@ Compile the code (with libraries if needed):
 
 javac -cp "libs/*" -d bin src/com/game/*.java
 
-libs/ contains any required .jar libraries(Java and Junit 5.8.1)
+libs.zip contains any required .jar libraries(Java and Junit 5.8.1)
 
 Compiled .class files go to the bin/ folder.
 
@@ -105,9 +105,9 @@ java -cp "bin:libs/*" com.game.Game         # macOS/Linux
 java -cp "bin;libs/*" com.game.Game         # Windows
 
 📦 **External Libraries**
-✅ All required libraries are located in the libs.zip folder. No external downloads are necessary — just extarct the folder and  include them via the -cp "libs/*" option during compile and run.
+✅ _All required libraries are located in the libs.zip folder. No external downloads are necessary — just extarct the folder and  include them via the -cp "libs/*" option during compile and run.
 We need java version 8 or above and Junit 5.8.1. Please include them in class path from
-lips.zip  folder in the project.
+lips.zip  folder in the project._
 
 ##Example Session
 
