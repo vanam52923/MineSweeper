@@ -51,11 +51,7 @@ This is a **console-based Minesweeper game** implemented in Java. The game suppo
 
 MineSweeperGame/
 
-├── .gitignore
-
-├── libs/                   # External JAR libraries
-
-├── MineSweeperGame.iml
+├── libs.zip                  # External JAR libraries
 
 ├── src/
 
@@ -109,9 +105,9 @@ java -cp "bin:libs/*" com.game.Game         # macOS/Linux
 java -cp "bin;libs/*" com.game.Game         # Windows
 
 📦 **External Libraries**
-✅ All required libraries are located in the libs/ folder. No external downloads are necessary — just include them via the -cp "libs/*" option during compile and run.
+✅ All required libraries are located in the libs.zip folder. No external downloads are necessary — just extarct the folder and  include them via the -cp "libs/*" option during compile and run.
 We need java version 8 or above and Junit 5.8.1. Please include them in class path from
-/libs folder in the project.
+lips.zip  folder in the project.
 
 ##Example Session
 
