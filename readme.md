@@ -94,6 +94,8 @@ Compile the code (with libraries if needed):
 
 javac -cp "libs/*" -d bin src/com/game/*.java
 
+For the sake of simplicty have bundled all the needed jars in libs.zip folder. I have not included pom.xml intentioanlly for sake of simplicity.
+
 libs.zip contains any required .jar libraries(Java and Junit 5.8.1)
 
 Compiled .class files go to the bin/ folder.
